@@ -1,0 +1,13 @@
+.avatar {
+  height: 200px;
+  width: auto;
+}
+
+.team-layout {
+  height: calc(100vh - 170px);
+  padding: 30px;
+}
+// team layout wraps all the content on team.html.erb
+// 100 vh is the all View Height on any device
+// we want the page to show navbar content and footer on the screen
+// navbar height : 70px, footer height: 100px
